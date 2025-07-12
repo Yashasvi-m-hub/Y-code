@@ -1,0 +1,38 @@
+.background {
+   background-image: url("MM background image.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+}
+.logo {
+     display: flex;
+     border-color: black;
+}
+
+
+.navbar {
+  background-color:none ;
+  padding: 1em 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center ;
+  list-style: none;
+  gap: 2em;
+  
+}
+
+.navbar a:hover {
+  color: #00bfb0;
+}
+
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
